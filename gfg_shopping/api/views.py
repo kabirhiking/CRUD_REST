@@ -45,6 +45,13 @@ def add_items(request):
 	else:
 		return Response(status=status.HTTP_404_NOT_FOUND)
 
+# {
+#     "category": "food",
+#     "subcategory": "vegetables",
+#     "name": "potato",
+#     "amount": 25
+# }
+
     
 @api_view(['GET'])
 def view_items(request):
