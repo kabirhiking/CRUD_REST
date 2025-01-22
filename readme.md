@@ -46,5 +46,5 @@ Follow these steps to set up your Django project:
     ```sh
     python manage.py runserver
     ```
-
+https://www.geeksforgeeks.org/django-rest-api-crud-with-drf/
 Your Django project should now be up and running.
